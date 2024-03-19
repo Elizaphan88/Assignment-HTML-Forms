@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif; /* Use Arial font for the entire body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f9f9f9; /* Light gray background color */
+  }
+  
+  section {
+    max-width: 600px; /* Set maximum width for the form section */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding around the form */
+    background-color: white; /* background color for the form */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+
+  h2 {
+    text-align: center; /* Center align the heading */
+    color: #333; /* Dark gray heading color */
+  }
+  
+  label {
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="password"],
+  textarea {
+    width: 100%; /* Set input fields to full width */
+    padding: 10px; /* Add padding to input fields */
+    margin-bottom: 15px; /* Add some spacing between input fields */
+    border: 1px solid #ccc; /* Add border to input fields */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
+  fieldset {
+    margin-bottom: 15px; /* Add spacing below the fieldset */
+  }
+  
+  legend {
+    font-weight: bold; /* Make legend bold */
+  }
+  
+  .div-button {
+    text-align: center;
+    margin-top: 0px;
+}
+
+  button {
+    padding: 10px 20px; /* Add padding to buttons */
+    margin-right: 10px; /* Add spacing between buttons */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff; /* Blue color for submit button */
+    color: #fff; /* White text color */
+  }
+  
+  button[type="reset"] {
+    background-color: #dc3545; /* Red color for reset button */
+    color: #fff; /* White text color */
+  }
+  
+  .footer-info {
+    text-align: center; /* Center align footer text */
+    margin-top: 20px; /* Add some spacing above the footer */
+  }
+  
